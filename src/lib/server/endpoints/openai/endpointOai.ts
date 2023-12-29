@@ -10,7 +10,7 @@ export const endpointOAIParametersSchema = z.object({
 	weight: z.number().int().positive().default(1),
 	model: z.any(),
 	type: z.literal("openai"),
-	baseURL: z.string().url().default("https://api.openai.com/v1"),
+	baseURL: z.string().url().default("http://127.0.0.1:8000/v1"),
 	apiKey: z.string().default(OPENAI_API_KEY ?? "sk-"),
 	completion: z
 		.union([z.literal("completions"), z.literal("chat_completions")])

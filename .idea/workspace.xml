@@ -28,8 +28,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/danil/PycharmProjects/chat-ui",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/danil/PycharmProjects/fialka",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703821552452</updated>
       <workItem from="1703821553620" duration="605000" />
-      <workItem from="1703822445105" duration="3992000" />
+      <workItem from="1703822445105" duration="4191000" />
     </task>
     <servers />
   </component>
