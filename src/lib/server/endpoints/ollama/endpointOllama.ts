@@ -22,7 +22,7 @@ export function endpointOllama(input: z.input<typeof endpointOllamaParametersSch
             model,
         });
 
-        const r = await fetch(`http://81.94.150.232:8000/v1/completions`, {
+        const r = await fetch(`http://127.0.0.1:8000/v1/completions`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

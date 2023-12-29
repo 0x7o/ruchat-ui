@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875ff5d9-1c7e-4121-83b4-d28568810a99" name="Changes" comment="Change openai url">
+    <list default="true" id="875ff5d9-1c7e-4121-83b4-d28568810a99" name="Changes" comment="Change model">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/server/endpoints/ollama/endpointOllama.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/endpoints/ollama/endpointOllama.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <workItem from="1703848493973" duration="1902000" />
       <workItem from="1703850436636" duration="2030000" />
       <workItem from="1703852508366" duration="1253000" />
-      <workItem from="1703858484616" duration="46000" />
+      <workItem from="1703858484616" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="Change openai url">
       <option name="closed" value="true" />
@@ -78,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703829829998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change model">
+      <option name="closed" value="true" />
+      <created>1703858546860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703858546860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change openai url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change openai url" />
+    <MESSAGE value="Change model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change model" />
   </component>
 </project>
