@@ -28,7 +28,7 @@ export function endpointOllama(input: z.input<typeof endpointOllamaParametersSch
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                "model": "0x7194633/fialka-7B-v3",
+                "model": model.id ?? model.name,
                 "prompt": prompt,
                 "max_tokens": 256,
                 "temperature": 0.2,
