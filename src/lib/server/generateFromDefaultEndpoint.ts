@@ -11,7 +11,7 @@ export async function generateFromDefaultEndpoint({
 	const endpoint = await smallModel.getEndpoint();
 
 	const tokenStream = await endpoint({ conversation: { messages, preprompt } });
-
+	console.log(tokenStream);
 	for await (const output of tokenStream) {
 		// if not generated_text is here it means the generation is not done
 		if (output.generated_text) {
